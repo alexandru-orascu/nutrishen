@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+:root {
+    --black: #160F29;
+    --green: #1B998B;
+    --red: #FF6663;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Hero */
+
+.hero {
+    min-width: 100%;
+    height: 50vh;
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+.copy {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.hero-title {
+    margin-right: 25px;
+    margin-top: 100px;
+    text-align: right;
+}
+
+.hero-subhead {
+    text-align: right;
+    margin-right: 25px;
+}
+
+.hero-cta {
+    text-align: right;
+    margin: 30px 100px;
+}
+
+.mobile-menu-exit {
+    display: none;
+}
+
+.nav-buttons {
+    display: none;
+}
+
+
+.hero-fixed {
+    margin: auto 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-menu {
+    width: 2.5em;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: 700;
+}
